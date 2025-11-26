@@ -812,3 +812,25 @@ body.light-theme .timeline-item p,
 body.light-theme .timeline-item li {
     color: #1e293b !important; /* slate-800 */
 }
+
+/* --- MOBILE EXPERIENCE FIX (Visibility) --- */
+@media (max-width: 768px) {
+  .timeline-item,
+  .experience-details {
+      background: var(--card) !important;
+      padding: 1rem;
+      border-radius: 12px;
+  }
+
+  body.light-theme .experience-details,
+  body.light-theme .experience-details *,
+  body.dark-theme .experience-details,
+  body.dark-theme .experience-details * {
+      color: var(--text) !important;
+  }
+
+  .timeline-line {
+      background: var(--text) !important;
+      opacity: 0.3;
+  }
+}
