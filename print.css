@@ -1,0 +1,20 @@
+
+/* Print-friendly CV/page layout */
+@page {
+  margin: 15mm;
+}
+
+body {
+  background: white !important;
+  color: black !important;
+  font-size: 12pt;
+}
+
+nav, footer, .no-print, .animated, .hero-image {
+  display: none !important;
+}
+
+section {
+  page-break-inside: avoid;
+  margin-bottom: 12mm;
+}

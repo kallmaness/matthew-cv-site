@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Professional portfolio website of Matthaios Toma. Experience, skills, certifications, and contact information.">
+<meta name="keywords" content="Matthaios Toma, CV, Portfolio, IT, Networking, Security, Technician">
+<meta name="author" content="Matthaios Toma">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matthaios (Matthew) Toma – IT Systems Engineer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="print.css" media="print">
+</head>
+<body>
+<header class="top-nav">
+  <div class="nav-inner">
+    <div class="nav-left">
+      <div class="nav-logo-badge">MT</div>
+      <div class="nav-identity">
+        <div class="nav-name">Matthaios (Matthew) Toma</div>
+        <div class="nav-role">IT Systems Engineer · Maritime · Network · Security</div>
+      </div>
+    </div>
+    <nav class="nav-links">
+      <a href="./index.html"><i class="fa-solid fa-house"></i> Home</a>
+      <a href="./experience.html"><i class="fa-solid fa-briefcase"></i> Experience</a>
+      <a href="./skills-certs.html"><i class="fa-solid fa-shield-halved"></i> Skills &amp; Certs</a>
+      <a href="./projects.html" class="active"><i class="fa-solid fa-diagram-project"></i> Projects</a>
+      <a href="./contact.html"><i class="fa-solid fa-envelope"></i> Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="theme-toggle" class="no-print" aria-label="Toggle light and dark mode">🌓</button>
+      <button class="print-btn no-print" onclick="window.print()" aria-label="Print this page">🖨 Print</button>
+      <button class="hamburger no-print" aria-label="Toggle navigation menu">☰</button>
+    </div>
+  </div>
+</header>
+<main class="container">
+
+<section  id="projects" class="fade-section fade-up">
+  <h2 class="section-title"><span></span>Projects &amp; Highlights</h2>
+  <p class="section-caption">
+    Selected projects that showcase vessel connectivity, monitoring, backup, imaging, and communication improvements.
+  </p>
+
+  <div class="project-grid">
+
+    <article class="project">
+      <h3>Proactive Vessel Network &amp; Connectivity Monitoring with PRTG</h3>
+      <div class="project-meta">Prominence Maritime S.A. · 2025 – Present</div>
+      <ul>
+        <li>Deployed PRTG Network Monitor to track vessel satellite connectivity and onboard network health in real time.</li>
+        <li>Integrated HP and Zyxel switches via SNMP over WatchGuard BOVPN tunnels for centralized monitoring.</li>
+        <li>Configured email alerts for satellite outages, port disconnections and device status changes.</li>
+        <li>Delivered continuous visibility from shore and reduced reliance on manual checks.</li>
+      </ul>
+    </article>
+
+    <article class="project">
+      <h3>GTMail Deployment &amp; Email Policy Management for Vessels</h3>
+      <div class="project-meta">Fleet-wide Email Modernization</div>
+      <ul>
+        <li>Installed and configured GTMail on vessels, ensuring stable and secure email communications at sea.</li>
+        <li>Created and managed user mailboxes and access policies for onboard email systems.</li>
+        <li>Implemented rules and restrictions aligned with bandwidth, security and compliance requirements.</li>
+        <li>Coordinated email migrations from legacy platforms to GTMail and Microsoft 365 where needed.</li>
+      </ul>
+    </article>
+
+    <article class="project">
+      <h3>Network-Based Imaging &amp; Recovery with Clonezilla + DRBL (Vessels)</h3>
+      <div class="project-meta">Prominence Maritime S.A. · Vessel IT</div>
+      <ul>
+        <li>Implemented a Clonezilla + DRBL solution to clone and restore onboard systems over the network.</li>
+        <li>Configured PXE boot so crew can restore a system quickly with minimal steps.</li>
+        <li>Improved disaster recovery times and reduced the need for manual OS reinstalls in isolated conditions.</li>
+      </ul>
+    </article>
+
+    <article class="project">
+      <h3>COVID-19 Rapid Laptop Deployment Lab — Clonezilla Mass Imaging</h3>
+      <div class="project-meta">ΔΕΔΔΗΕ / HEDNO S.A. · 2020</div>
+      <ul>
+        <li>Built a LAN-based lab using Clonezilla Server to image and configure up to 50 laptops simultaneously for remote work.</li>
+        <li>Standardized Windows images, applications and security baselines for remote staff devices.</li>
+        <li>Reduced per-device deployment time from hours to minutes during the COVID-19 transition.</li>
+        <li>Ensured users could work securely from home with pre-configured VPN, security tools and productivity apps.</li>
+      </ul>
+    </article>
+
+    <article class="project">
+      <h3>Fleet &amp; Office Backup Strategy for IT Systems, Email, ERP &amp; File Servers</h3>
+      <div class="project-meta">Fleet &amp; HQ · Backup &amp; DR</div>
+      <ul>
+        <li>Designed and maintained backup policies for vessel and office environments, covering mail, ERP and file servers.</li>
+        <li>Configured backup monitoring and alerting to ensure successful jobs and fast remediation.</li>
+        <li>Performed test restorations and recovery drills to validate RPO/RTO objectives.</li>
+      </ul>
+    </article>
+
+    <article class="project">
+      <h3>Active Directory with RODCs on Each Vessel</h3>
+      <div class="project-meta">Fleet-wide Identity &amp; Access</div>
+      <ul>
+        <li>Designed an AD topology with onboard Read-Only Domain Controllers to provide local authentication on vessels.</li>
+        <li>Reduced dependency on satellite links for user logons and access checks.</li>
+        <li>Improved security posture by limiting credential exposure at sea.</li>
+      </ul>
+    </article>
+
+    <article class="project">
+      <h3>ESET USB Lockdown &amp; Centralized Antivirus Management</h3>
+      <div class="project-meta">Endpoint Security · Fleet</div>
+      <ul>
+        <li>Installed an on-prem ESET management server in bridge mode to support vessels.</li>
+        <li>Centralized AV signature updates and security policies for onboard endpoints.</li>
+        <li>Implemented USB device control and exceptions to reduce data leakage risks.</li>
+      </ul>
+    </article>
+
+    <article class="project">
+      <h3>Synology NAS with AD Integration &amp; SharePoint CloudSync</h3>
+      <div class="project-meta">Prominence Maritime S.A.</div>
+      <ul>
+        <li>Deployed Synology NAS onboard joined to Active Directory for controlled access.</li>
+        <li>Configured SharePoint CloudSync to synchronize key folders between ship and shore.</li>
+        <li>Improved data integrity, collaboration and availability across locations.</li>
+      </ul>
+    </article>
+
+    <article class="project">
+      <h3>Teams Communication Workflow for Vessel–Shore Operations</h3>
+      <div class="project-meta">Fleet Operations</div>
+      <ul>
+        <li>Configured Microsoft Teams on a designated master PC and approved mobile device onboard.</li>
+        <li>Enabled faster incident reporting, approvals and coordination with shore-based teams.</li>
+      </ul>
+    </article>
+
+    <article class="project">
+      <h3>Starlink Maritime Connectivity Rollout</h3>
+      <div class="project-meta">Fleet-wide Connectivity Upgrade</div>
+      <ul>
+        <li>Supported deployment, configuration and testing of Starlink connectivity on vessels.</li>
+        <li>Integrated Starlink into existing network and firewall environments with appropriate routing and failover.</li>
+        <li>Improved bandwidth, latency and overall user experience onboard.</li>
+      </ul>
+    </article>
+
+  </div>
+</section>
+
+</main>
+<footer>
+  © <span id="year"></span> Matthaios (Matthew) Toma · Professional IT Systems Engineer Portfolio
+</footer>
+<script src="script.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const toggle = document.getElementById("theme-toggle");
+  const body = document.body;
+
+  if(toggle){
+    toggle.addEventListener("click", () => {
+      body.classList.toggle("light-theme");
+      localStorage.setItem("theme",
+        body.classList.contains("light-theme") ? "light" : "dark"
+      );
+    });
+  }
+  if(localStorage.getItem("theme") === "light"){
+    body.classList.add("light-theme");
+  }
+});
+</script>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const burger = document.querySelector(".hamburger");
+  const links = document.querySelector(".nav-links");
+
+  if(burger){
+    burger.addEventListener("click", () => {
+      links.classList.toggle("show");
+    });
+  }
+});
+</script>
+
+</body>
+</html>
