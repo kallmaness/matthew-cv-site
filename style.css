@@ -834,3 +834,11 @@ body.light-theme .timeline-item li {
       opacity: 0.3;
   }
 }
+
+/* --- MOBILE FIX v8: Disable all fade opacity on mobile --- */
+@media (max-width: 768px) {
+  .fade-section, .fade-up, .timeline-item {
+      opacity: 1 !important;
+      transform: none !important;
+  }
+}
